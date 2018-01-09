@@ -1,0 +1,57 @@
+@import '../../node_modules/functional-theme/index.less';
+
+.dark {
+  @primaryColor:#2f2f2f;
+  @primaryContrastColor: #dfdfdf;
+  @secondaryColor:#313838;
+  @secondaryContrastColor: #b3bcbf;
+  @ternaryColor:#191f1f;
+  @ternaryContrastColor: #7c8285;
+  @accentColor:#eb5380;
+  @accentContrastColor:#dfdfdf;
+  @pageColor:#141d1d;
+  @pageContrastColor:#636b70;
+  @cardColor:#ffffff;
+  @cardContrastColor:#505960;
+  @successColor:#04c087;
+  @successContrastColor:#383c3e;
+  @errorColor:#e34f5f;
+  @errorContrastColor:#b3bcbf;
+  @warningColor:#e3bf4f;
+  @warningContrastColor:#b3bcbf;
+  @dividerColor:#42474a;
+  @dividerContrastColor:#dfdfdf;
+  @placeholderColor:#5b6163;
+  @backdropColor: rgba(216, 216, 216, 0.25);
+  @transparentColor: rgba(0, 0, 0, 0);
+  .addColor(transparent, @transparentColor);
+  .addColor(primary, @primaryColor, @primaryContrastColor);
+  .addColor(secondary, @secondaryColor, @secondaryContrastColor);
+  .addColor(ternary, @ternaryColor, @ternaryContrastColor);
+  .addColor(accent, @accentColor, @accentContrastColor);
+  .addColor(page, @pageColor, @pageContrastColor);
+  .addColor(card, @cardColor, @cardContrastColor);
+  .addColor(success, @successColor, @successContrastColor);
+  .addColor(error, @errorColor, @errorContrastColor);
+  .addColor(warning, @warningColor, @warningContrastColor);
+  .addColor(divider, @dividerColor, @dividerContrastColor);
+  .addColor(divider-contrast, @dividerContrastColor, @dividerColor);
+  .addColor(backdrop, @backdropColor);
+  .addColor(placeholder, @placeholderColor);
+  .hoverable:hover {
+    .addColor(transparent-h, @transparentColor);
+    .addColor(primary-h, @primaryColor, @primaryContrastColor);
+    .addColor(secondary-h, @secondaryColor, @secondaryContrastColor);
+    .addColor(ternary-h, @ternaryColor, @ternaryContrastColor);
+    .addColor(accent-h, @accentColor, @accentContrastColor);
+    .addColor(page-h, @pageColor, @pageContrastColor);
+    .addColor(card-h, @cardColor, @cardContrastColor);
+    .addColor(success-h, @successColor, @successContrastColor);
+    .addColor(error-h, @errorColor, @errorContrastColor);
+    .addColor(warning-h, @warningColor, @warningContrastColor);
+    .addColor(divider-h, @dividerColor, @dividerContrastColor);
+    .addColor(divider-contrast-h, @dividerContrastColor, @dividerColor);
+    .addColor(backdrop-h, @backdropColor);
+    .addColor(placeholder-h, @placeholderColor);
+  }
+}
