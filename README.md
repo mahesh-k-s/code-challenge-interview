@@ -1,4 +1,4 @@
-# Credit Suisse Coding Test
+# iTunes Media Portal
 
 In this project, an user can login to the portal via login page. Upon login user can search for music from iTunes. Search results lists all musics and upon clicking on a music tile will display its details
 
