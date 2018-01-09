@@ -5,12 +5,12 @@ In this project, an user can login to the portal via login page. Upon login user
 ## User Credentials
 ```bash
 Username : John
-Password : test123
+Password : test1234
 ```
 
 ## Getting Started
 
-Clone the project 
+Clone the project
 ```bash
 git clone 'https://github.com/mahesh-k-s/creditsuisse.git'
 ```
@@ -18,12 +18,11 @@ or
 
 download the zip and extract to a local directory
 
-
 ## Installing
 
 ```bash
 
-# install dependencies 
+# install dependencies
 npm install
 
 # serve with hot reload at localhost:3000.(Make sure you open a webbrowser with web security disabled, so project will auto-render to that browser)
@@ -49,12 +48,22 @@ npm test
 - JavaScript [`ES6`]
 - [`Webpack 2.x`] as module bundler
 - [`Babel JS`] as the compiler.
+- [`React Router v4`]
 - [`Enzymes`] as the test library.
 - [`Jest`] as testing framework
 
-## Output
+## Screens
 
-![alt tag](https://github.com/mahesh-k-s/agl-test/blob/master/assets/output-screenshot.png)
+### Login Screen
+![Login](./docs/login.png)
+
+### Home Screen
+![Home Screen](./docs/screen1.png)
+
+### Details Screen
+![Details Screen](./docs/screen2.png)
+
+> Design inspiration https://dribbble.com/shots/2125746-Music-Player-App-Dark-Light
 
 ## License
 
