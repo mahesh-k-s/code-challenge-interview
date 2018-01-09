@@ -6,7 +6,8 @@ module.exports = {
     "import"
   ],
   "env": {
-    "browser": true
+    "browser": true,
+    "jest": true
   },
   "rules": {
     "react/jsx-filename-extension": 0,
