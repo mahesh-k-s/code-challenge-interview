@@ -49,7 +49,7 @@ npm test
 - JavaScript [`ES6`]
 - [`Webpack 2.x`] as module bundler
 - [`Babel JS`] as the compiler.
-- [`Enzymes`] as the test runner.
+- [`Enzymes`] as the test library.
 - [`Jest`] as testing framework
 
 ## Output
