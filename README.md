@@ -4,7 +4,7 @@ In this project, an user can login to the portal via login page. Upon login user
 
 ## User Credentials
 ```bash
-Username : John
+Username : john
 Password : test1234
 ```
 
