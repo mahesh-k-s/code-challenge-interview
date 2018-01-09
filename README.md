@@ -12,7 +12,7 @@ Password : test1234
 
 Clone the project
 ```bash
-git clone 'https://github.com/mahesh-k-s/creditsuisse.git'
+git clone 'https://github.com/mahesh-k-s/code-challenge-interview.git'
 ```
 or
 
